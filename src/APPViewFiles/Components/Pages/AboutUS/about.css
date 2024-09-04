@@ -1,0 +1,20 @@
+/* AboutUs.css */
+.containerAbout {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    color: aliceblue !important;
+  }
+  
+  h2 {
+    color: #fff !important;
+  }
+  
+  h4 {
+    color: #fff !important;
+  }
+  
+  p {
+    color: #fff !important;
+  }
+  

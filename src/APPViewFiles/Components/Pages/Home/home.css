@@ -1,0 +1,53 @@
+.content-container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .social-media-bar {
+    margin-top: 20px;
+  }
+  
+  .social-media-bar i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .right-div img{
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+  }
+  
+  .animated-image {
+    width: 100%;
+    height: auto;
+    animation: slideInRight 1s ease-out;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

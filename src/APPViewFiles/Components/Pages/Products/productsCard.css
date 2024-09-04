@@ -1,0 +1,107 @@
+/* src/ProductCard.css */
+.product-card {
+    border-radius: 8px;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(70, 67, 67, 0.1);
+    background: #fff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.respo{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    height: 100px;
+}
+.product-image {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    border-radius: 8px;
+
+}
+
+.product-title {
+    font-size: 18px;
+
+    color: black !important;
+}
+
+.product-description {
+    color: #555;
+
+    color: black !important;
+
+}
+
+.product-prices {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    color: black !important;
+
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.new-price {
+    color: #e60000;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+/* productsCard.css */
+.custom-toast {
+    background-color: #333;
+    color: #fff;
+}
+
+/* del btn */
+/* From Uiverse.io by vinodjangid07 */
+.bin-button {
+   
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #e60000;
+    outline: none;
+
+    border: none;
+}
+.c-btn{
+    background-color: #333;
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px ;
+}
+@media (max-width:550px) {
+    .responsive{
+        margin-top: 80% !important;
+    }
+}

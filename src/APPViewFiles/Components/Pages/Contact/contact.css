@@ -1,0 +1,25 @@
+/* ContactUs.css */
+.containercontact  {
+    background-color: #f8f9fa;
+    padding: 20px;
+
+    border-radius: 8px;
+    margin-top:20% !important;
+    background-color: #333;
+    color: #fff !important;
+
+  }
+  
+  .containercontact h2 {
+    color: #fff;
+  }
+  
+  .containercontact  p {
+    color: #fff
+  }
+  
+  @media (max-width:770px){
+    .containercontact {
+        margin-top: 60% !important;
+    }
+  }

@@ -1,0 +1,17 @@
+.productContainer{
+    margin-top: 150px;
+    color: #0000 !important;
+    padding: 20px;
+    border-radius:15px;
+    overflow: scroll;
+}
+.productContainer h2{
+    color: black !important;
+}
+.productContainer p{
+    color: black !important;
+}
+.productContainer h4{
+    color: black !important;
+    color: tomato !important;
+}
